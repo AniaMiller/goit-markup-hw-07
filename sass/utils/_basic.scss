@@ -1,0 +1,29 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: var(--basic-text-color);
+    background-color: var(--bright-background);
+    letter-spacing: var(--default-letter-spacing);
+  }
+
+  .inline {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid var(--light-grey-background);
+  }
+
+  .padding-top-off {
+    padding-top: 0;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }

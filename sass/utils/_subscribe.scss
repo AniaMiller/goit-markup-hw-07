@@ -1,0 +1,21 @@
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    background-color: var(--item-color);
+    font-size: 16px;
+    color: var(--bright-text-color);
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 00.06em;
+    padding-left: 48px;
+    font-family: inherit;
+  }
+  
+  .subscribe-button__icon {
+    height: 24px;
+    width: 24px;
+    fill: var(--bright-background);
+    margin-left: 20px;
+  }

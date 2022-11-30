@@ -1,0 +1,19 @@
+/* header and footer main page logo format */
+.webstudio {
+    margin-right: 93px;
+    font-family: "Raleway";
+    font-size: var(--webstudio-logo-font-size);
+    font-weight: 700;
+    color: var(--hover-active-link-color);
+    line-height: 1.19;
+  }
+  
+  /* main page logo placed in header and footer - dark version */
+  .webstudio--dark {
+    color: var(--basic-text-color);
+  }
+  
+  /* main page logo placed in header and footer - white version */
+  .webstudio--white {
+    color: var(--bright-text-color);
+  }

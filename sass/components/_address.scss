@@ -1,0 +1,18 @@
+/* margin used in footer to move address from logo*/
+.address {
+    margin-top: 20px;
+  }
+  
+  .address__element:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  
+  .address__text {
+    color: var(--bright-text-color);
+    line-height: var(--second-line-heigth);
+  }
+  
+  .address:hover,
+  .address:active {
+    color: var(--hover-active-link-color);
+  }  

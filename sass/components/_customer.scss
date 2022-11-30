@@ -1,0 +1,25 @@
+/* Section Regular Customers */
+.customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border-radius: var(--basic-radius);
+    color: var(--customer-icon-color);
+    border: 1px solid currentColor;
+    transition-property: color;
+    transition-duration: var(--tr-duration);
+    transition-timing-function: var(--tr-function);
+  }
+  
+  .customer:hover,
+  .customer:focus {
+    color: var(--hover-active-link-color);
+  }
+  
+  .customer__icon {
+    height: 60px;
+    width: 106px;
+    fill: currentColor;
+  }

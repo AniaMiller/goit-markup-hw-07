@@ -1,0 +1,31 @@
+.contact {
+    color: var(--contact-text-color);
+    line-height: var(--second-line-heigth);
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    transition-property: color;
+    transition-duration: var(--tr-duration);
+    transition-timing-function: var(--tr-function);
+  }
+  
+  .contact:hover,
+  .contact:focus {
+    color: var(--hover-active-link-color);
+  }
+  
+  /* envelope icon from the navigation bar */
+  .contact__envelope-icon {
+    height: 12px;
+    width: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  
+  /* phone icon from the navigation bar */
+  .contact__phone-icon {
+    height: 16px;
+    width: 10px;
+    margin-right: 10px;
+    fill: currentColor;
+  }

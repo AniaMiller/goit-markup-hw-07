@@ -1,0 +1,20 @@
+/* space between sections - main page view */
+.section {
+    padding-top: var(--padding-between-sections);
+    padding-bottom: var(--padding-between-sections);
+  }
+
+  .section--bottom {
+    padding-top: 0;
+  }
+  
+.section--grey {
+    background-color: var(--second-background);
+  }
+  
+.section__header {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+  }

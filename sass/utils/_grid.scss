@@ -1,0 +1,15 @@
+/* inline elements with static gap */
+.grid30-line {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .grid30-line--wrap {
+    flex-wrap: wrap;
+  }
+
+  .grid10-line {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }

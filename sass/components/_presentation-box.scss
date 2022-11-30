@@ -1,0 +1,31 @@
+.presentation-box {
+    width: 270px;
+  }
+  
+  .presentation-box__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: var(--basic-radius);
+    background-color: var(--second-background);
+  }
+  
+  .presentation-box__image__icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .presentation-box__header {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+  }
+  
+  .presentation-box__description {
+    color: var(--light-text-color);
+    line-height: var(--second-line-heigth);
+  }
